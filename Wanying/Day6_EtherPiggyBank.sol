@@ -5,7 +5,7 @@ pragma solidity ^0.8.0;
 contract EtherPiggyBank{
 
     //there should be a bank manager who has the certain permissions
-    //there should be an array for all members registered and a mapping whther they are registered or not
+    //there should be an array for all members registered and a mapping whether they are registered or not
     //a mapping with there balances
     address public bankManager;
     address[] members;
